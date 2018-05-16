@@ -77,3 +77,13 @@ echo PluploadWidget::widget([
 
 
 ```
+
+
+Documentation
+-------------
+
+For 2.3.6：[https://www.plupload.com/docs/](https://www.plupload.com/docs/)
+
+
+
+
