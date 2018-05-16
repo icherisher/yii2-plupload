@@ -21,6 +21,32 @@ or add
 
 to the require section of your `composer.json` file.
 
+Configuration
+-------------
+
+To use this extension, you have to configure the Connection class in your application configuration:
+
+```php
+
+return [
+	'components'=>[
+		// ...
+		'pluploadManager' => [
+			'class' => 'icherisher\plupload\components\PluploadManager'
+		],
+	],
+	
+	'modules'=>[
+		// ...
+		'plupload' => [
+			'class' => 'icherisher\plupload\Moudle',
+		],
+	]
+];
+
+```
+
+
 
 Usage
 -----
@@ -28,4 +54,26 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \icherisher\plupload\components\PluploadWidget::widget(); ?>```
+
+use icherisher\plupload\components\PluploadWidget;
+
+// with ActiveForm & model
+echo $form->field($model, 'attribute')->widget(PluploadWidget::class, [
+	'options'=>[],
+	'settings'=>[],
+	'events'=>[],
+	....
+]); 
+
+// without model
+echo PluploadWidget::widget([
+	'name'=>'attr_name',
+	'value'=>'',
+	'options'=>[],
+	'settings'=>[],
+	'events'=>[],
+	....
+]);
+
+
+```

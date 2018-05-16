@@ -1,6 +1,6 @@
 <?php
 
-namespace common\plupload\controllers;
+namespace icherisher\plupload\controllers;
 
 use yii\web\Controller;
 use Yii;

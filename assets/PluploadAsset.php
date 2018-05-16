@@ -15,7 +15,6 @@ class PluploadAsset extends AssetBundle
 	
 	public $js = [
 		'plupload-2.3.6/js/plupload.full.min.js',
-		// 'plupload.manager.js'
 	];
 	
 	public $depends = [

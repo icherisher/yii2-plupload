@@ -1,21 +1,29 @@
 {
-    "name": "icherisher/yii2-plupload",
-    "description": "A Yii2 module/widget for upload files",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","widget","upload","module","plupload"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "icherisher",
-            "email": "icherish.hao@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "icherisher\\plupload\\": ""
-        }
-    }
+  "name": "icherisher/yii2-plupload",
+  "description": "A Yii2 module/widget for upload files",
+  "type": "yii2-extension",
+  "keywords": [
+	"yii2",
+	"extension",
+	"widget",
+	"upload",
+	"module",
+	"plupload"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+	{
+	  "name": "icherisher",
+	  "email": "icherish.hao@gmail.com"
+	}
+  ],
+  "require": {
+	"yiisoft/yii2": "~2.0.0",
+	"yiisoft/yii2-bootstrap": "~2.0.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "icherisher\\plupload\\": ""
+	}
+  }
 }
