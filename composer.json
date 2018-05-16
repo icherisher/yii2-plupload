@@ -25,5 +25,7 @@
 	"psr-4": {
 	  "icherisher\\plupload\\": ""
 	}
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
